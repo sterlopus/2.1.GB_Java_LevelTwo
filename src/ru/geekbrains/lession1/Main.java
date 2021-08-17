@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Beings[] beings = {
+ /*       Beings[] beings = {
                 new Human("Mary", 4, 2),
                 new Human("Doris", 5, 3),
                 new Cat("Barsik", 3, 1),
@@ -20,8 +20,12 @@ public class Main {
                 new Wall(4),
                 new Treadmill(5)
                 };
-
-        System.out.println("zero output");
+*/
+        try {
+            System.out.println("zero output");
+        }   catch (ArithmeticException e) {
+            System.out.println("error");
+        }
 
     }
 }
