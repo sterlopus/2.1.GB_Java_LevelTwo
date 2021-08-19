@@ -1,5 +1,5 @@
 package ru.geekbrains.lession2;
-// Extentions lession
+// Exceptions lession
 
 import static java.lang.Integer.parseInt;
 
